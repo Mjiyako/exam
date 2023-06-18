@@ -361,6 +361,10 @@ span{
     color: var(--text-color);
     display: none;
   }
+  #readmoreText13{
+    color: var(--text-color);
+    display: none;
+  }
 
 
   .designs h2{

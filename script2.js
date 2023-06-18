@@ -44,10 +44,10 @@
     delay: 200
  });
 
-//  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-//  ScrollReveal().reveal('.home-img, .blogs, .essay, .projects, .profile, .contact', { origin: 'bottom' });
-//  ScrollReveal().reveal('.home-content h1, .profileImg', { origin: 'top' });
-//  ScrollReveal().reveal('.home-content p, .about-content', { origin: 'bottom' });
+  ScrollReveal().reveal('.homeContent, .heading', { origin: 'bottom' });
+  ScrollReveal().reveal('.homeImg, .blogs,.profile, .contact', { origin: 'bottom' });
+  ScrollReveal().reveal('.homeContent h1, .profileImg', { origin: 'bottom' });
+  ScrollReveal().reveal('.homeContent p, .aboutContent', { origin: 'bottom' });
 
  
  

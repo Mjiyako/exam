@@ -26,6 +26,7 @@ var swiper = new Swiper(".slide-content", {
   const week9 = document.querySelector('#button6');
   const week10 = document.querySelector('#button7');
   const week13 = document.querySelector('#button8');
+  const week14 = document.querySelector('#button9')
   week1.addEventListener("click",() => textReveal());
   week2.addEventListener("click",() => textReveal1());
   week3.addEventListener("click",() => textReveal2());
@@ -35,6 +36,7 @@ var swiper = new Swiper(".slide-content", {
   week9.addEventListener("click",() => textReveal8());
   week10.addEventListener("click",() => textReveal9());
   week13.addEventListener("click",() => textReveal12());
+  week14.addEventListener("click", () => textReveal13());
 
   function textReveal() {
     let x = document.getElementById("readmoreText");
@@ -135,6 +137,15 @@ var swiper = new Swiper(".slide-content", {
   }
   function textReveal12() {
     let x = document.getElementById("readmoreText12");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function textReveal13() {
+    let x = document.getElementById("readmoreText13");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -272,6 +283,13 @@ var swiper = new Swiper(".slide-content", {
   <p>Kasapis - 2020 - Internet Access is a Fundamental Right.pdf </p>
    <p>Daniolou - 2020 - The Need for Global Internet Connectivity.pdf </p>
       &nbsp;</p>`;
+
+  const blog13 = document.getElementById("readmoreText13");
+  blog13.innerHTML = `
+  <p><strong><span style="text-decoration: underline;">Reflection on Course</span></strong></p>
+  <p>The module is finally finish, had to fix all small bugs and fix all other mentioned problems with the code internally even though some aspects could not be dealt with as they would cause the website to fail and not function as intended this was a fantastic experience to be able to create a website from scratch and be able to experience what it is like to be in charge of this creation and see how work goes in the development of websites as I was always curious of how websites are created and hosted on the world wide web. I am satisfied with how much I have learnt about making websites and serves as a good foundation for me to explore further and even attempt to create my own application as this serves as one of the fundamental of the creation of applications. Had a great time and enjoyed it even though I must agree that this was a hell lot of work but work I enjoyed doing.
+      
+     </p>`;
 
 
   const essay = document.getElementById("essayStuff");
