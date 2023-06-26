@@ -44,10 +44,7 @@
     delay: 200
  });
 
-  ScrollReveal().reveal('.homeContent, .heading', { origin: 'bottom' });
-  ScrollReveal().reveal('.homeImg, .blogs,.profile, .contact', { origin: 'bottom' });
-  ScrollReveal().reveal('.homeContent h1, .profileImg', { origin: 'bottom' });
-  ScrollReveal().reveal('.homeContent p, .aboutContent', { origin: 'bottom' });
+  
 
  
  
